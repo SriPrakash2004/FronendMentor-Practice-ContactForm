@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Contact form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="main-popup-container">
+    <div class="popup-container">
+     <div class="popup">
+      <img src="./icon/check-removebg-preview.png" alt="" width="15px" height="15px"><h5>Message Sent!</h5>
+     </div>
+        <p class="popup-para">Thanks for completing the form. we'll be in touch soon!</p>
+    </div>
+  </div>
+  <div class="container">
+    <div class="form-submision">
+      <h1>Contact Us</h1>
+      <div class="form-container">
+        <form>
+          <div class="form-main-container">
+            <div class="label-container">
+              <label for="fname">First Name <p class="fname-para">*</p></label>
+              <label for="lname" class="lastname">Last Name <p class="fname-para">*</p></label>
+            </div>
+            <div class="inputfiled1">
+              <input type="text" name="fname" required class="first-name" id="finame">
+              <input type="text" name="lname" required class="first-name" id="laname">
+            </div>
+            <div class="label-container">
+              <p class="required-filed1">This filed is required *</p>
+              <p class="required-filed2">This filed is required *</p>
+            </div>
+          </div>
+          <div class="label-container">
+            <label for="mail">Email Address <p class="fname-para">*</p></label>
+          </div>
+          <div class="inputfiled1">
+            <input type="email" name="mail" required id="mailid" class="mail">
+          </div>
+          <p class="required-filed-mail">Please enter a valid email address *</p>
+          <div class="label-container">
+            <label for="querytype">Query Type <p class="fname-para">*</p></label>
+          </div>
+          <div class="inputradio">
+            <div class="radio-input-filed">
+              <input type="radio" name="querytype" id="radio-id" class="radio-filedbox" required>
+              <p>General Enquiry </p>
+            </div>
+            <div class="radio-input-filed">
+              <input type="radio"  class="radio-filedbox" name="querytype" id="radio-id1" required>
+              <p>Support
+                Request</p>
+            </div>
+          </div>
+            <p class="required-filed1">This filed is required *</p>
+          <div class="label-container">
+            <label for="msg">Message <p class="fname-para">*</p></label>
+          </div>
+          <div class="inputfiled1">
+            <textarea name="msg" id="msgid" required class="mail"></textarea>
+          </div>
+          <p class="required-filed-area">This filed is required *</p>
+          <div class="inputcheck">
+            <input type="checkbox" class="form-checkbox" id="checkbox-id" required>
+            <p>I consent to being contacted by the team
+            <p class="fname-para2">*</p>
+            </p>
+          </div>
+          <p class="required-filed1">This filed is required *</p>
+          <div class="inputfiled1">
+            <button class="btn-submit" onclick="update()">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+    Coded by <a href="#">Sri Prakash</a>.
+  </div>
+</body>
+
+<script src="./script.js"></script>
+
+
+</html>

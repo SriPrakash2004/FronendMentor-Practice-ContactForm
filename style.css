@@ -1,0 +1,195 @@
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url('C:\Users\SRI\OneDrive\Desktop\contact-form-main\assets\fonts\Karla-Italic-VariableFont_wght.ttf');
+}
+body{
+      font-family: "Karla", sans-serif;
+      background-color: hsl(148, 38%, 91%);
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.form-submision{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    color: hsl(187, 24%, 22%);
+    width: 500px;
+    height: auto;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+.form-cotainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.label-container{
+    padding-bottom: 5px;
+    display: flex;
+}
+
+.label-container .lastname{
+    margin-left: 34%;
+}
+.inputfiled1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.inputfiled1 input:hover{
+    border: 1px solid hsl(169, 82%, 27%);
+    cursor: pointer;
+}
+.first-name{
+    padding: 10px;
+    width: 44%;
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.mail{
+    border: 1px solid hsl(186, 15%, 59%);
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+}
+.mail:hover{
+    border: 1px solid hsl(169, 82%, 27%);
+    cursor: pointer;
+}
+.inputradio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.radio-input-filed{
+    border: 1px solid hsl(186, 15%, 59%);
+    width: 44%;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+}
+.radio-input-filed p{
+    padding: 0px;
+    margin: 0px;
+}
+.radio-input-filed:active{
+    background-color: hsl(148, 38%, 91%);
+    cursor: pointer;
+}
+.inputcheck{
+    display: flex;
+}
+.inputcheck p{
+    margin-left: 10px;
+}
+form label{
+    font-size: 16px;
+    display: flex;
+}
+form input:focus{
+    outline: none;
+}
+form textarea:focus{
+    outline: none;
+}
+
+.form-checkbox{
+    accent-color: hsl(169, 82%, 27%);
+}
+
+.radio-filedbox{
+    accent-color: hsl(169, 82%, 27%);
+}
+form label p{
+    padding: 0px;
+    margin: 0px;
+    color: hsl(169, 82%, 27%);
+    display: flex;
+    margin-left: 10px
+}
+
+.btn-submit{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: hsl(169, 82%, 27%);
+    color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+}
+
+.required-filed1{
+    color: hsl(0, 66%, 54%);
+    padding: 0px;
+    margin: 0px;
+    width: 45%;
+    display: none;
+}
+.required-filed2{
+    color: hsl(0, 66%, 54%);
+    padding: 0px;
+    margin: 0px;
+    width: 45%;
+    padding-left: 32px;
+    display: none;
+}
+.required-filed-mail{
+    color: hsl(0, 66%, 54%);
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    display: none;
+}
+.required-filed-area{
+    color: hsl(0, 66%, 54%);
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    display: none;
+}
+.required-box{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popup-container{
+    background-color: hsl(187, 24%, 22%);
+    width: 400px;
+    height: 40px;
+    padding: 20px;  
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.popup{
+    display: flex;
+}
+.popup-container h5{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 5px;
+}
+.popup-para{
+    font-size: 14px;
+}
+.main-popup-container{
+    background-color: hsl(187, 24%, 22%);
+    display: none;
+    width: 100%;
+    border-radius: 10px;
+    width: 30%;
+    margin-left: 34%;
+}
